@@ -273,8 +273,8 @@ header {
 }
 
 .img-booking {
-    height: 600px;
-    width: 120%;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 textarea {
@@ -294,4 +294,63 @@ textarea {
     margin: 10px;
     cursor: pointer;
     width: 96%;
+}
+
+.sec5-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.img-chefs {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.sec5-div {
+    margin: 10px;
+    padding-top: 30px;
+    box-shadow: 0 0px 15px 0px rgb(184, 182, 182);
+    transition: .4s;
+    z-index: 3;
+    height: 300px;
+}
+
+.sec5-div:hover {
+    background-color: #191f40;
+    color: white;
+    border-radius: 10px;
+    height: 350px;
+    
+}
+
+.sec5-div:hover > .sec5-btn {
+    align-items: center;
+    opacity: 1;
+}
+
+.sec5-btn{
+    opacity: 0;
+    align-items: center;
+    margin-top: 30px;
+    background: #f97d11;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.full-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.designation {
+    font-size: 15px;
+    font-weight: lighter;
 }
